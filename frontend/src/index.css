@@ -1,0 +1,22 @@
+body {
+  background-color: #f4f6f8;
+}
+
+.kanban-column {
+  background-color: #eef1f4;
+  border-radius: 0.5rem;
+  min-height: 60vh;
+  padding: 0.75rem;
+}
+
+.kanban-card {
+  cursor: grab;
+}
+
+.kanban-card.dragging {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.backlog-item {
+  cursor: grab;
+}
